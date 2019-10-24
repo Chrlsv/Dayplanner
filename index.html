@@ -29,10 +29,24 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-2" id="column">Time</div>
+                <div class="col-8">Notes&Events</div>
+                <div class="col-2" id="eventbutton"></div>
+            </div>
+
+            <div class="row" data-value='9'>
+                <div class="col-2" id="hour">9:00</div>
+                <div class="col-8"><input type='text' id='description' data-value='9'></div>
+                <div class="col-2" id="eventbutton"><button class="svBtn" data-value='9'>Save</button></div>
+            </div>
+        </div>
       <!-- Timeblocks go here -->
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

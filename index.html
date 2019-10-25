@@ -2,24 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/><link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
     <title>Work Day Scheduler</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </head>
 
   <body>
@@ -30,23 +21,62 @@
     </header>
     <div class="container">
         <div class="container">
-            <div class="row">
-                <div class="col-2" id="column">Time</div>
-                <div class="col-8">Notes&Events</div>
-                <div class="col-2" id="eventbutton"></div>
-            </div>
-
             <div class="row" data-value='9'>
                 <div class="col-2" id="hour">9:00</div>
                 <div class="col-8"><input type='text' id='description' data-value='9'></div>
-                <div class="col-2" id="eventbutton"><button class="svBtn" data-value='9'>Save</button></div>
+                <div class="col-2" id="eventbutton"><button class="saveBtn" data-value='9'>Save</button></div>
+            </div>
+
+            <div class="row" data-value='10'>
+                <div class="col-2" id="hour">10:00</div>
+                <div class="col-8"><input type='text' id='description' data-value='10'></div>
+                <div class="col-2" id="eventbutton"><button class="saveBtn" data-value='10'>Save</button></div>
+            </div>
+
+            <div class="row" data-value='11'>
+                <div class="col-2" id="hour">11:00</div>
+                <div class="col-8"><input type='text' id='description' data-value='11'></div>
+                <div class="col-2" id="eventbutton"><button class="saveBtn" data-value='11'>Save</button></div>
+            </div>
+
+            <div class="row" data-value='12'>
+                <div class="col-2" id="hour">12:00</div>
+                <div class="col-8"><input type='text' id='description' data-value='12'></div>
+                <div class="col-2" id="eventbutton"><button class="saveBtn" data-value='12'>Save</button></div>
+            </div>
+
+            <div class="row" data-value='1'>
+                <div class="col-2" id="hour">1:00</div>
+                <div class="col-8"><input type='text' id='description' data-value='1'></div>
+                <div class="col-2" id="eventbutton"><button class="saveBtn" data-value='1'>Save</button></div>
+            </div>
+
+            <div class="row" data-value='2'>
+                <div class="col-2" id="hour">2:00</div>
+                <div class="col-8"><input type='text' id='description' data-value='2'></div>
+                <div class="col-2" id="eventbutton"><button class="saveBtn" data-value='2'>Save</button></div>
+            </div>
+
+            <div class="row" data-value='3'>
+                <div class="col-2" id="hour">3:00</div>
+                <div class="col-8"><input type='text' id='description' data-value='3'></div>
+                <div class="col-2" id="eventbutton"><button class="saveBtn" data-value='3'>Save</button></div>
+            </div>
+
+            <div class="row" data-value='4'>
+                <div class="col-2" id="hour">4:00</div>
+                <div class="col-8"><input type='text' id='description' data-value='4'></div>
+                <div class="col-2" id="eventbutton"><button class="saveBtn" data-value='4'>Save</button></div>
+            </div>
+
+            <div class="row" data-value='5'>
+                <div class="col-2" id="hour">5:00</div>
+                <div class="col-8"><input type='text' id='description' data-value='5'></div>
+                <div class="col-2" id="eventbutton"><button class="saveBtn" data-value='5'>Save</button></div>
             </div>
         </div>
       <!-- Timeblocks go here -->
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="script.js"></script>
   </body>
 </html>

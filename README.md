@@ -9,7 +9,7 @@ Simply click the box in order to log or change the events according to the day's
 
 
 Sample:
-<img src = "capture.png" width = "500px" height = "500px">
+<img src = "Capture.PNG" width = "500px" height = "500px">
 
 
 
